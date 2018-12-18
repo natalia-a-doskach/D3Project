@@ -1,0 +1,20 @@
+html{
+font-family: 'Roboto', sans-serif;
+color: purple;
+}
+h1{
+text-align: center;
+}
+h2{
+margin: 0vw 20vw 0vw 20vw;
+font-size: 2vw;
+}
+.bigDiv{
+width:60vw;
+height: 70vh;
+border: solid 1px black;
+margin: 0vw 20vw 5vw 20vw;
+}
+footer p{
+text-align: right;
+}
