@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <meta name='viewport' content="width=device-width,initial-scale=1.0">
   <script src="jquery-3.3.1.min.js"></script>
+  <script src="d3.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
 </head>
 
 <body>
@@ -18,24 +20,27 @@
   <main>
     <h2>USA GDP Barchart</h2>
   <div id="barChartDiv" class="bigDiv"></div>
-    <h2>ScatterPlot Graph</h2>
+    <h2>Doping in Professional Bicycle Racing</h2>
   <div id="scatterPlottDiv" class="bigDiv"></div>
-    <h2>Heat Map</h2>
-  <div id="heatMapDiv" class="bigDiv"></div>
-    <h2>Choropleth Map</h2>
-  <div id="choroplethMapDiv" class="bigDiv"></div>
-    <h2>Kickstarter Pleghes treeMap</h2>
+  <div id="tooltip1" class="tooltip">Tooltip</div>
+    <h2>Monthly Global Land-Surface Temperature</h2>
+  <div id="heatMapDiv" class="bigDiv"><div id="description"><p></p></div></div>
+  <div id="tooltip2" class="tooltip">Tooltip</div>
+    <h2>United States Educational Attainment</h2>
+  <div id="choroplethMapDiv" class="bigDiv"></div><div id="description4"><p></p></div></div>
+    <div id="tooltip3" class="tooltip">Tooltip</div>
+    <h2>Kickstarter Pledges treeMap</h2>
   <div id="TreeMapDiv" class="bigDiv"></div>
-
+    <div id="tooltip5" class="tooltip">Tooltip</div>
   </main>
   <footer>
     <p>Made with love by <a target='_blank' href='https://github.com/natalia-a-doskach'>Natalia Doskach</a>.</p>
   </footer>
-<script src="barChartGDP.js"></script>
-<script src="scatterPlotGraph.js"></script>
+ <script src="barChartGDP.js"></script>
+ <script src="scatterPlotGraph.js"></script>
 <script src="heatMap.js"></script>
 <script src="choroplethMap.js"></script>
-<script src="kickstarterTreeMap.js"></script>
+ <script src="kickstarterTreeMap.js"></script>
 </body>
 
 </html>

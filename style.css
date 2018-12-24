@@ -18,3 +18,42 @@ margin: 0vw 20vw 5vw 20vw;
 footer p{
 text-align: right;
 }
+svg{
+width:100%;
+height:100%;
+}
+/* gdp */
+.bar{
+fill:purple;
+opacity: 0.6;
+border:none;
+}
+/* scatterPlot */
+.tooltip{position:absolute;
+         display:none;
+background-color: white;
+padding: 3px;
+border: solid purple 0.5px;}
+/* heatMap */
+#heatMapDiv svg{
+height:90%;
+}
+#description p{
+margin-bottom: 0px;
+text-align: left;
+padding-left: 10%;
+font-size: 1.4vw;
+}
+/* treeMap */
+.treeMapText{
+font-size: 0.5vw;
+}
+#description4{
+font-size: 1.3vw;
+}
+#legend5{
+font-size: 1vw;
+}
+#description5{
+font-size: 1.3vw;
+}
